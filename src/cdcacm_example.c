@@ -62,7 +62,7 @@ int main(void)
     */
 
     //For reading until white-spaces and non-words:
-    //n_char=scanf("%s", buf);
+    n_char=scanf("%s", buf);
 
     //For reading 10 chars and then printing them:
     /**for (i=0; i<10; i++) {
