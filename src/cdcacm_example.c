@@ -50,6 +50,7 @@ int main(void)
   int c;
   int n_char=0;
   setvbuf(stdin,NULL,_IONBF,0); // Sets stdin in unbuffered mode (normal for usart com)
+  //printled(3, LRED);
   while (1){
     //printled(1, LRED);
     /*
@@ -61,7 +62,7 @@ int main(void)
     */
 
     //For reading until white-spaces and non-words:
-    n_char=scanf("%s", buf);
+    //n_char=scanf("%s", buf);
 
     //For reading 10 chars and then printing them:
     /**for (i=0; i<10; i++) {
@@ -74,5 +75,6 @@ int main(void)
     buf[++i]='\0'; */
     //printled(1, LRED);
     printf("%s %d\n", buf, n_char);
+    printf("Hola  mundo\n");
   }
 }
